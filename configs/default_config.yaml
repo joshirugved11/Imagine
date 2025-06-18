@@ -1,0 +1,10 @@
+model:
+  name: simple_unet
+  img_size: 64
+  base_channels: 64
+
+training:
+  epochs: 5
+  batch_size: 16
+  lr: 0.0002
+  timesteps: 1000
