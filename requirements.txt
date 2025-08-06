@@ -7,11 +7,13 @@ tqdm
 scikit-learn
 opencv-python
 pandas
-einops                      # For tensor rearrangement
-omegaconf                   # For config management
-hydra-core                  # For experiment configs
-pytorch-lightning           # Optional, for cleaner training loops
-wandb                       # For experiment tracking (optional)
+einops
+omegaconf
+hydra-core
+pytorch-lightning
+wandb
 scipy
-ftfy                        # For text cleanup (if using CLIP)
-transformers                # For text-image models (if used later)
+ftfy
+transformers
+accelerate
+diffusers
